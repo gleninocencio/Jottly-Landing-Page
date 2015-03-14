@@ -1,0 +1,44 @@
+/*
+* Jott.ly 
+* Copyright 2015, Glen Inocencio
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Global Elements
+- Navigation
+- Content
+*/
+
+/* Global Elements
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+body {
+  font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+}
+
+ul {
+  text-decoration: none;
+}
+
+
+/* Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF0000;
+}
+

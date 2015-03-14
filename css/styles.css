@@ -1,0 +1,313 @@
+/*
+* Jott.ly 
+* Copyright 2015, Glen Inocencio
+* 2/1/2015
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Global Elements
+- Navigation
+- Main Header 
+- Product Description
+- Testimonial
+- Call To Action
+- Footer
+*/
+
+/* Global Elements
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+html, body{
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+ul, li {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block; 
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote {
+  font-size: 21px;
+}
+
+img{
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+.right_nav li {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.right_nav li:last-child{ margin-right: 0; }
+
+.right_nav a { color: #FFF; }
+.right_nav a:hover {
+  color: #FF0000;
+}
+
+.right_nav {
+  display: none;
+  text-align: right;
+  margin-left: 10px;
+}
+
+@media(min-width: 550px){
+  .right_nav{
+    display: block;
+  }
+}
+
+.nav_links {
+  margin-top: 30px;
+}
+
+.try_btn {
+  margin-top: -25px;
+}
+
+/* Main Header 
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+.btn {
+  border: 1px solid #FFF;
+  color: #FFF;
+  display: inline-block;
+  padding: 5px;
+}
+
+.btn:hover {
+  color: #FF0000;
+  border: 1px solid #FF0000;
+  padding: 5px;
+}
+
+.lead_image {
+  background: white url("../images/main_image.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  height: 800px; 
+}
+
+.main_tag_line {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 20%; 
+  color: #FFF;
+}
+
+.btn_large {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btn_large:hover {
+  padding: 10px;
+}
+
+/* Product Description
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+.what_jottly {
+  margin-top: 25px;
+  position: relative;
+}
+
+.jottly_text {
+  margin: 0 auto;
+  width: 100%; 
+}
+
+@media(min-width: 550px){
+  .jottly_text{ width: 80%; }
+}
+
+.jottly_icons {
+  margin-top: 50px;
+}
+
+img.icon {
+  width: 175px;
+}
+
+.create_icon, .write_icon, .share_icon{
+  margin-top: 20px;
+}
+
+/* Testimonial
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+.testimonial {
+  background: white url("../images/jessica.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  height: 800px; 
+  background-position: 0 5%;
+  margin-top: 25px;
+  max-height: 500px;
+}
+
+.bq_jessica {
+  font-size: 21px;
+}
+
+.jessica_quote {
+  color: #FFF;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 25%; 
+}
+
+.jessica_title {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.bqstart {
+  float: left;
+  height: 100px;
+  padding-top: 50px;
+  font-size: 700%;
+  color: #3d0b34;
+  margin-top: -149px;
+}
+
+/* Call To Action
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+.call_action {
+  height: 500px;
+  background-color: #3d0b34;
+}
+
+.call_action_tagline {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  text-align: center;
+  color: #FFF;
+}
+
+.wait_for_tag {
+  font-style: italic; 
+  margin-top: -10px;
+}
+
+.btn_action a {
+  color: #FFF;
+  border: 1px #FFF;
+}
+
+/* Footer
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+footer {
+  margin-top: 5px;
+}
+
+.left_footer_info a {
+  color: #000000;
+  margin-left: 5px;
+}
+
+.left_footer_info a:hover {
+  color: #FF0000;
+}
+
+.right_footer_info {
+  text-align: right;
+}
+
+.facebook {
+  background-image: url('../images/social-sprite.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 38px;
+  width: 38px;
+}
+
+.twitter {
+  background-image: url('../images/social-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -48px 0;
+  height: 38px;
+  width: 38px; 
+}
+
+.google_plus {
+  background-image: url('../images/social-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -98px 0;
+  height: 38px;
+  width: 38px;
+}
+
+.white-shadow-box{
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 -8px 10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow:    0 -8px 10px rgba(0, 0, 0, 0.25);
+  -o-box-shadow:      0 -8px 10px rgba(0, 0, 0, 0.25);
+  box-shadow:         0 -8px 10px rgba(0, 0, 0, 0.25);
+  clear: both;
+  display: block;
+  height: 100px;
+  margin: -80px auto;
+  position: relative;
+  width: 100%;
+}
